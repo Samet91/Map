@@ -5,11 +5,21 @@ import java.util.Map;
 
 public class StudentDB {
 
-    private Map<String, Student> mapOfStudents = new HashMap();
+    private Map<Integer, Student> mapOfStudents = new HashMap();
 
-    public StudentDB(Map<String, Student> mapOfStudents) {
+    public StudentDB(Map<Integer, Student> mapOfStudents) {
         this.mapOfStudents = mapOfStudents;
     }
 
+    public StudentDB () {
 
+    }
+
+    public Map<Integer, Student> getMapOfStudents() {
+        return mapOfStudents;
+    }
+
+    public void setMapOfStudents(Map<Integer, Student> mapOfStudents) {
+        this.mapOfStudents = mapOfStudents;
+    }
 }
