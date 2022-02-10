@@ -4,23 +4,23 @@ import java.util.Objects;
 
 public class Student {
 
-    private String id;
+    private int id;
     private String firstname;
     private String lastname;
     private int age;
 
-    public Student(String id, String firstname, String lastname, int age) {
+    public Student(int id, String firstname, String lastname, int age) {
         this.id = id;
         this.firstname = firstname;
         this.lastname = lastname;
         this.age = age;
     }
 
-    public String getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(int id) {
         this.id = id;
     }
 
