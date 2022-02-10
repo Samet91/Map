@@ -11,9 +11,7 @@ public class StudentDB {
         this.mapOfStudents = mapOfStudents;
     }
 
-    public StudentDB () {
 
-    }
 
     public Map<Integer, Student> getMapOfStudents() {
         return mapOfStudents;
